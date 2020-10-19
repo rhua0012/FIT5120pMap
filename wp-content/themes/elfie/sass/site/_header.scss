@@ -1,0 +1,135 @@
+
+.site-header {
+	padding: 25px 40px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+
+	&.menu-centered {
+		.site-branding,
+		.main-navigation,
+		.header-social {
+			text-align: center;
+		}
+
+		.main-navigation {
+
+			margin-top: 10px;
+			margin-bottom: 10px;
+			
+			li {
+				display: inline-block;
+				float: none;
+
+				&:last-of-type {
+					padding-right: 20px;
+				}
+			}
+		}
+
+		.header-social {
+			clear: both;
+
+			div:last-of-type a {
+				margin-right: 12px;
+			}
+		}
+	}
+
+	&.menu-top {
+		padding: 0;
+
+		.menu-bar-top {
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			.main-navigation {
+				text-align: center;
+
+				li {
+					&:last-of-type {
+						padding-right: 20px;
+					}
+				}
+			}
+		}
+
+		.menu-bar-bottom {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+
+		.site-branding {
+			text-align: center;
+		}
+	}
+}
+
+.site-title {
+    margin: 0;
+}
+
+.site-description {
+    margin: 5px 0 0;
+}
+
+.custom-logo-link {
+	max-width: 120px;
+
+	img {
+		vertical-align: top;
+	}
+}
+
+.header-social {
+    
+    text-align: right;
+	
+	div {
+		display: inline-block;
+		
+		a {
+			display: inline-block;
+			color: #333;
+			margin: 3px 12px;
+		}
+
+		&:last-of-type {
+			a {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/* Header image */
+.header-image {
+	img {
+		width: 100%;
+		vertical-align: top;
+	}
+}
+
+/* Subscribe section */
+.subscribe-section {
+	
+	margin: 30px 0;
+
+	p:last-of-type {
+		margin: 0;
+	}
+
+	.inner-subscribe-section {
+		background-color: #f7f7f7;
+		padding: 30px;
+	}
+
+	.elfie-form {
+		text-align: right;
+	}
+
+	.customize-partial-edit-shortcut {
+		left: 40%;
+	}
+	.container .container {
+		padding: 0;
+	}
+}
