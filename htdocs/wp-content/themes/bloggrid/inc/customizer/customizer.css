@@ -1,0 +1,13 @@
+ul[id*="bloggrid"] .customize-control-description {
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+ul[id*="bloggrid"] .customize-control-checkbox label {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+ul[id*="bloggrid"] li.customize-control {
+	margin-bottom: 15px;
+}

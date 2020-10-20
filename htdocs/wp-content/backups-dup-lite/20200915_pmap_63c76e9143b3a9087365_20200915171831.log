@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: September 15, 2020 5:20 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.36
+WORDPRESS:	5.5.1
+PHP INFO:	7.4.9 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][NOTICE] MSG:Only variables should be passed by reference [CODE:8|FILE:/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/duplicator/classes/package/class.pack.database.php|LINE:367]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Handler::error, DUP_Handler::getMessage
+SQL CREATED: 20200915_pmap_63c76e9143b3a9087365_20200915171831_database.sql
+SQL FILE SIZE: 16.36MB (17154390)
+SQL FILE TIME: 2020-09-15 17:20:36
+SQL RUNTIME: 1.11 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /opt/bitnami/apps/wordpress/htdocs
+ARCHIVE FILE: 20200915_pmap_63c76e9143b3a9087365_20200915171831_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	285.99MB
+STATS:	Dirs 3,431 | Files 14,039
+SQL ADDED: 20200915_pmap_63c76e9143b3a9087365_20200915171831_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 17470
+    [filename] => /opt/bitnami/apps/wordpress/htdocs/wp-content/backups-dup-lite/tmp/20200915_pmap_63c76e9143b3a9087365_20200915171831_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 17469
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 143.46MB
+ARCHIVE RUNTIME: 48.86 sec.
+MEMORY STACK: 8.31MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /opt/bitnami/apps/wordpress/htdocs/wp-content/backups-dup-lite/tmp/20200915_pmap_63c76e9143b3a9087365_20200915171831_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 16.36MB
+INSTALLER FILE: 61.31KB
+ARCHIVE FILE: 145.04MB 
+EXPECTED FILE/DIRECTORY COUNT: 17,470
+ACTUAL FILE/DIRECTORY COUNT: 17,469
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 52.92 sec.
+PEAK PHP MEMORY USED: 12.31MB
+DONE PROCESSING => 20200915_pmap September 15, 2020 5:21 pm
+

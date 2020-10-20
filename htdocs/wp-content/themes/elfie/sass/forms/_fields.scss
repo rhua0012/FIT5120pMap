@@ -1,0 +1,66 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #000;
+	border: 1px solid #ebebeb;
+	border-radius: 0;
+	padding: 14px;
+
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button, 
+input {
+	min-height: 51px;
+	vertical-align: top;
+}
+
+.select2-container--default .select2-selection,
+select {
+	border: 1px solid #ebebeb;
+	padding: 10px;
+}
+
+.select2-container--default .select2-selection {
+	height: auto;
+	line-height: auto;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 50px;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-dropdown {
+	border-color: #ebebeb;
+}
+
+textarea {
+	width: 100%;
+}
+input[type="radio"], input[type="checkbox"] {
+    min-height: auto;
+	vertical-align: middle;
+}
+#wp-comment-cookies-consent {
+	min-height: auto;
+	vertical-align: middle;
+}

@@ -1,0 +1,14 @@
+.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 25px;
+}
+
+.aligncenter {
+	clear: both;
+	@include center-block;
+}
